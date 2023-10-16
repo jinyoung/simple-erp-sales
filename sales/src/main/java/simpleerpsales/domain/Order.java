@@ -22,6 +22,7 @@ public class Order {
 
     private String vendorId;
 
+    @Embedded
     private Money totalAmount;
 
     public static OrderRepository repository() {
